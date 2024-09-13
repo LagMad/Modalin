@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Urbanist';
+  font-weight: 100 900;
+  font-style: normal;
+  src: url('./assets/fonts/Urbanist-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  font-weight: 100 900;
+  font-style: italic;
+  src: url('./assets/fonts/Urbanist-Italic-VariableFont_wght.ttf') format('truetype');
+}

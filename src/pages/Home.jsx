@@ -1,14 +1,23 @@
 import React from "react";
 import MainLayout from "../components/layout/MainLayout";
+import Hero from "../components/home/Hero";
+import Solution from "../components/home/Solution";
+import Portofolio from "../components/home/Portofolio";
+import Testimonials from "../components/home/Testimonials";
+import Action from "../components/home/Action";
+import WorkDesc from "../components/home/WorkDesc";
+import FAQ from "../components/home/FAQ";
 
 const Home = () => {
   return (
     <MainLayout>
-      <div className="flex text-cust-dark-blue text-9xl w-full min-h-screen justify-center items-center">
-        Ini Home
-        <br />
-        Playing with font is fun
-      </div>
+      <Hero/>
+      <Solution/>
+      <Portofolio/>
+      <Testimonials/>
+      <Action/>
+      <WorkDesc/>
+      <FAQ/>
     </MainLayout>
   );
 };
